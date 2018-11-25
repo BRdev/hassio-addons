@@ -1,6 +1,0 @@
-{
-  "build_from": {
-    "armhf": "nodered/node-red-docker:rpi-v8",
-    "amd64": "nodered/node-red-docker:v8"
-  }
-}

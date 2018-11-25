@@ -1,10 +1,10 @@
 {
-  "name": "HA Bridge (Deprecated)",
-  "version": "4.5.6p3",
-  "slug": "ha-bridge",
-  "description": "HA Bridge - Hue Emulator (https://github.com/bwssytems/ha-bridge)",
-  "url": "https://github.com/notoriousbdg/hassio-addons/tree/master/ha-bridge",
-  "webui": "http://[HOST]:[PORT:80]",
+  "name": "Milight Bridge",
+  "version": "1.0.0",
+  "slug": "milight-bridge",
+  "description": "Control your milight lights using this NodeJS application.",
+  "url": "https://github.com/BRdev/hassio-addons/tree/master/milight-bridge",
+  "webui": "http://[HOST]:[PORT:3000]",
   "arch": [
     "armhf",
     "amd64"
@@ -18,7 +18,7 @@
   "host_network": true,
   "options": {
     "serverip": null,
-    "serverport": 80,
+    "serverport": 3000,
     "version": "latest"
   },
   "schema": {
