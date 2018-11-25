@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y nodejs
 RUN apt-get update && apt-get install -y npm
 
 # install milightsbridge
-RUN git clone https://github.com/KevinVR/milights-bridge.git
+RUN git clone https://github.com/BRdev/milights-bridge.git
 RUN cd milights-bridge
 RUN npm install
 RUN cp config.example.js config.js
